@@ -1,0 +1,608 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    margin-bottom: 15%;
+}
+.top{
+    background-color:#091e3e;
+    padding: 13px;
+}
+.top1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn0{
+    color: white;
+    text-decoration: none; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s; 
+}
+.btn0:hover{
+    background-color: white;
+    color: black;
+    transition: .4s;
+}
+.btn1{
+    background-color: #06a3da;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+#search{
+    color: #06a3da;
+    cursor: pointer;
+ }
+
+.navbar {
+    width: 100%;
+    border-bottom: 1px solid rgba(256, 256, 256, .1);
+    z-index: 999;
+    background-color: transparent;
+}
+.carousel-caption  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0 !important;
+    bottom: 0;
+    right: 0;
+    background: rgba(9, 30, 62, .7);
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.contant{
+   margin-top: 10%;
+    text-align: center;
+}
+.contant h1{
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* nav */
+
+header.sticky {
+    background: white;
+    color: black;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
+    font-weight: 500;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; 
+  }
+header.sticky .navbar-brand{
+    color: #06a3da;
+  }
+header.sticky .nav-item a{
+    color: black;
+  }
+header.sticky .dropdown-menu {
+    color: black;
+  }
+.dropdown-menu li a {
+    color: black;
+  }
+header {
+    position: fixed;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    transition: 0.3s;
+    z-index: 10000;
+  }
+header .nav-item a{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+  }
+.navbar-brand{
+    font-weight: 800;
+}
+
+
+.navbar-dark .navbar-nav li::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 50%;
+    transition: .5s;
+}
+.navbar-dark .navbar-nav li:hover{
+    transition: .3s;
+    width: 100%;
+    left: 0;
+    right: 0;
+    
+}
+.navbar-dark .navbar-nav li .dropdown-item{
+    color: black;
+}
+.navbar-dark .navbar-nav li .dropdown-item:hover{
+    background-color:#ebedf1;
+}
+.navbar-dark .navbar-nav li:hover a{
+    color: #06a3da !important; 
+    transition: .5s;
+}
+/* end nav */
+
+
+.headh1{
+    margin-bottom: 10%;
+    font-weight: 700;
+}
+.headh1-1{
+    font-weight: 700;
+}
+
+
+
+.empty-box {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 145px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    from {left: 10px;}
+    to {left: 230px;}
+  }
+  
+  /* @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;} */
+    /* 25%  {background-color:red; left:200px; top:0px;}
+    50%  {background-color:red; left:200px; top:200px;}
+    75%  {background-color:red; left:0px; top:200px;} */
+    /* 100% {background-color:red; left:200px; top:0px;}
+  } */
+
+
+
+.headh5{
+    color: #06a3da;
+    font-weight: bold
+}
+.no .num{
+    font-weight: 700;
+    color: #06a3da;
+}
+.btn00{
+    background-color: #06a3da !important;
+    border:none;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.btn01{
+    background-color:transparent;
+    border:1px solid white;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: .3s;
+}
+.btn01:hover{
+    background-color: white;
+    color: black !important;;
+    transition: .3s;
+    border: none;
+}
+
+/* about section */
+.aboutus{
+    color: #06a3da;
+}
+
+.underline-animetion {
+    width: 35%;
+    height: 1%;
+    background-color: #06a3da;
+    border-radius: 5px;
+}
+
+.para{
+    font-weight: 500;
+}
+.done{
+    color: #06a3da;
+}
+.about h4{
+    margin-bottom: 20px;
+}
+
+.call{
+    width: 60px!important;
+    height: 60px;
+    background-color: #06a3da;
+    border-radius: 2px;
+}
+.btn2{
+    background-color: #06a3da;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+/* about section end*/
+
+
+/* WHY CHOOSE US start  */
+.bii-i{
+    width: 60px;
+    height: 60px;
+    background-color: #06a3da ;
+}
+.WHYCHOOSEUS p{
+    margin-bottom: 10%;
+}
+.WHYCHOOSEUS h4{
+    font-weight:500;
+}
+/* WHY CHOOSE US end  */
+
+/* service start */
+.serviceicon{
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    background-color: #06a3da;
+    text-align: center!important;
+} 
+.serviceicon i{
+    transform: rotate(45deg);
+}
+.service .card{
+    border: none;
+    background-color: #eef9ff;
+    transition: .3s;
+}
+.service .card:hover{
+    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: .3s;
+}
+.card-text{
+    font-weight: 600;
+    color: #6b6a75;
+}
+.lc{
+background-color: #06a3da !important;
+}
+
+/* pricing plans start */
+.align-top{
+    font-size: 16px;
+    font-weight: 700;
+}
+.align-bottom{
+    font-size: 16px;
+    font-weight: 700;
+}
+.dolor{
+    font-weight: 800;
+}
+.pricingplans p{
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #6b6a75; 
+}
+.pricingplans p i{
+color: #06a3da;
+}
+
+.btn3{
+    color: white;
+    background-color: #06a3da;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 2px;  
+}
+.sub-h h4{
+    color: #06a3da;
+    font-weight: bold;
+}
+.wrong i {
+    color: red !important;
+}
+.pricingplans .fc{
+    background-color: #eef9ff;
+    padding: 5%;
+}
+.pricingplans .fc-2{
+    background-color: white ;
+    padding: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.i-1{
+    color: #06a3da;
+}
+
+/* REQUEST A QUOTE start */
+
+.inputbox{
+    background-color: #06a3da;
+    border-radius: 2px;   
+}
+.inputbox input{
+    background-color:#eef9ff ;
+    border: none;
+    border-radius: 2px;
+}
+.select{
+    border-radius: 2px; 
+}
+
+.massege{
+    border-radius: 2px; 
+}
+.btn4{
+background-color: #091e3e ;
+border-radius: 2px; 
+}
+/* REQUEST A QUOTE end */
+
+/* testimonial start */
+.CN{
+    color:  #06a3da!important;;
+}
+.cbg{
+    background-color: #eef9ff;
+}
+.RM{
+    color: #06a3da;
+}
+.cbg-1{
+    background-color: #eef9ff;
+}
+.tag{
+    top: 14%;
+    padding: 2% 8%;
+    background-color: #06a3da;
+    color: white;
+}
+.blogText h6 i{
+    color: #06a3da;
+}
+
+/* testimonial end */
+
+/* company  start*/
+marquee{
+    width: 100%;
+    height: 30%;
+}
+/* Container styles */
+.scrolling-text-container {
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: .2s;
+}
+/* Inner container styles */
+.scrolling-text-inner {
+    display: flex;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 0;
+}
+/* Text styles */
+.scrolling-text {
+    display: flex;
+}
+.scrolling-text-item {
+    padding: 0 30px;
+}
+/* Apply the animation to the text items */
+.scrolling-text-inner>div {
+    animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+/* Pause the animation when a user hovers over it */
+.scrolling-text-container:hover .scrolling-text-inner>div {
+    animation-play-state: paused;
+}
+/* Setting the Animation using Keyframes */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+/* company end */
+
+/* footer start */
+.foot{
+    background: #06a3da;
+    
+}
+.foot-box{
+    background-color: #091e3e;
+    
+}
+.foot-icon{
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
+.foot-para{
+    background-color: #091e3e;
+    padding: 18px;
+    color: white;
+    margin-left: -5px;
+}
+.foot-icon2{
+    color: #06a3da;
+}
+.btn6{
+        color: white;
+        text-decoration: none; 
+        width: 30px;
+        height: 30px;
+        border-radius:2px;
+        border:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .4s;
+        background-color: #06a3da;          
+}
+.btn6:hover{
+    color: black;
+    transition: .4s;
+}
+.foot-icon3{
+    color: #06a3da;
+}
+.f-list p:hover{
+    margin-left: 10px;
+    transition: .4s;
+}
+.f-list p{
+    transition: .4s;
+}
+.f-list a{
+    color: white;
+    text-decoration: none;
+}
+.empty{
+    width: 100%;
+    padding: 35px;
+    background-color: #061429;
+}
+
+/* menu */
+
+/* mobail view */
+@media (min-width: 320px) and (max-width:480px) {
+
+.top{
+    display: none;
+}
+header.sticky{
+    display: none;
+}
+
+header{
+    top: 0;
+}
+.slider {
+    margin-top: 15%;
+}
+.menu{
+    background-color:#061429;
+}
+.menu .py-3 {
+    padding-top: 0rem!important; 
+     padding-bottom: .4rem!important;
+}
+
+.menu .px-5 {
+     padding-right: 0rem!important; 
+     padding-left: 0rem!important; 
+}
+.slider .contant{
+    margin-top: 3%;
+}
+
+#search {
+    display: none;
+}
+.slider h5{
+    font-size: 12px;
+}
+.slider .display-1{
+    font-size: 26px;
+}
+.btn00{
+    font-size: 11px;
+    padding: 5px;
+}
+.btn01{
+    font-size: 11px;
+    padding: 5px;
+}
+.slider .carousel-control-prev-icon {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    left: 5px;
+}
+.slider .carousel-control-next-icon{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    right: 5px;
+}
+/* about */
+.btn2{
+    padding: 12px;
+    margin-bottom: 10px;
+}
+.underline-animetion{
+    display: none;
+}
+.empty-box{
+    display: none;
+}
+/* WHYCHOOSEUS */
+.WHYCHOOSEUS .ProfessionalStaff{
+    margin-top: 10%;
+}
+/* service */
+
+.service .col-md-4{
+    margin-bottom: 10%;
+}
+/* REQUESTAQUOTE */
+.REQUESTAQUOTE .inputbox{
+    padding-bottom: 10%;
+}
+.REQUESTAQUOTE .btn4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* team */
+.team .col-md-4{
+    margin-bottom:10%;
+}
+/* LATESTBLOG */
+.LATESTBLOG .col-md-4{
+    margin-bottom: 10%;
+}   
+/* pricingplans */
+.pricingplans .col-md-4{
+    margin-bottom: 10%;
+}
+ }
+
+ 
